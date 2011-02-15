@@ -1,7 +1,6 @@
 package Git::Flux;
 
 use Mouse;
-
 use Git::Repository;
 
 # common
