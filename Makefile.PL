@@ -15,7 +15,7 @@ WriteMakefile
                            'Test::More' => 0,
                            'Test::TinyMocker' => 0,
                            'Try::Tiny' => 0,
-                           'mixin' => 0
+                           'Mouse' => 0,
                          },
           'INSTALLDIRS' => 'site',
           'EXE_FILES' => [
