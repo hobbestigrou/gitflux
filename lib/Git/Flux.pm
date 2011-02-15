@@ -4,10 +4,12 @@ use Mouse;
 
 use Git::Repository;
 
+# common
+with 'Git::Flux::Utils';
+
 with qw/
     Git::Flux::Command::init
     Git::Flux::Command::help
-    Git::Flux::Utils
 /;
 
 our $VERSION = '0.0_03';
