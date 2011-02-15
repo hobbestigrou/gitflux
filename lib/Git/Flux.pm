@@ -7,6 +7,7 @@ use Git::Repository;
 # common
 with 'Git::Flux::Utils';
 
+#commands
 with qw/
     Git::Flux::Command::init
     Git::Flux::Command::help
